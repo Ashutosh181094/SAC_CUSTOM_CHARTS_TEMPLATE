@@ -4,12 +4,12 @@
         <h1>Hello World</h1>
     `;
 
-    customElements.define('com-sap-sample-helloworld1', class HelloWorld1 extends HTMLElement {
+    customElements.define('com.sap.sample.CustomCharts', class HelloWorld1 extends HTMLElement {
 
 
-		constructor() {
-			super(); 
-			this._shadowRoot = this.attachShadow({mode: "open"});
+       constructor() {
+	    super(); 
+	    this._shadowRoot = this.attachShadow({mode: "open"});
             this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
             this._firstConnection = false;
 		}
