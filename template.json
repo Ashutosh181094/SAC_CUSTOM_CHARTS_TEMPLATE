@@ -11,7 +11,7 @@
 	"webcomponents": [
         {
 	"kind": "main",
-	"tag": "com-sap-sample-helloworld1",
+	"tag": "com-sap-sample-CustomCharts",
         "url": "https://ashutosh181094.github.io/SAC_CUSTOM_CHARTS_TEMPLATE/webcomponent.js",
         "integrity": "",
         "ignoreIntegrity" : true
