@@ -4,7 +4,7 @@
         <h1>Hello World</h1>
     `;
 
-    customElements.define('com-sap-sample-CustomCharts', class HelloWorld1 extends HTMLElement {
+    customElements.define('com-sap-sample-helloworld10', class HelloWorld1 extends HTMLElement {
 
 
        constructor() {
